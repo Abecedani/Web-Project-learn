@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas 1 Pemweb - Biografi Danny</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas 1 Pemweb - Biografi Danny</title>
 </head>
+
 <body>
 
-    <header>
-        <h1>BIOGRAFI & PORTOFOLIO SAYA</h1>
-        <nav>
-            <a href="#profil">Profil</a> | 
-            <a href="#pendidikan">Pendidikan</a> | 
-            <a href="#kontak">Hubungi Saya</a>
-        </nav>
-    </header>
+  <header>
+    <h1>BIOGRAFI & PORTOFOLIO SAYA</h1>
+    <nav>
+      <a href="#profil">Profil</a> |
+      <a href="#pendidikan">Pendidikan</a> |
+      <a href="#kontak">Hubungi Saya</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <section id="profil">
+      <h2>Halo, Saya Danny</h2>
+      <img src="F1D02410140" alt="Foto Profil Danny dari SIA Unram" width="180">
+
+      <p>Saya adalah seorang mahasiswa di <strong>Mataram</strong> yang fokus di bidang teknologi. Saya sangat antusias
+        dengan pemrograman, infrastruktur jaringan, hingga desain web.</p>
+
+      <h3>Keahlian Utama</h3>
+      <ul>
+        <li><strong>Bahasa:</strong> C++, Java, dan Python.</li>
+        <li><strong>Sistem :</strong> Computer Networking & Database.</li>
+        <li><strong>Desain :</strong> UI/UX menggunakan Figma.</li>
+      </ul>
+    </section>
 
     <hr>
 
-    <main>
-        <section id="profil">
-            <h2>Halo, Saya Danny</h2>
-            <img src="F1D02410140" alt="Foto Profil Danny dari SIA Unram" width="180">
-            
-            <p>Saya adalah seorang mahasiswa di <strong>Mataram</strong> yang fokus di bidang teknologi. Saya sangat antusias dengan pemrograman, infrastruktur jaringan, hingga desain web.</p>
-            
-            <h3>Keahlian Utama</h3>
-            <ul>
-                <li><strong>Bahasa:</strong> C++, Java, dan Python.</li>
-                <li><strong>Sistem :</strong> Computer Networking & Database.</li>
-                <li><strong>Desain :</strong> UI/UX menggunakan Figma.</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section id="pendidikan">
-            <h2>Riwayat Pendidikan</h2>
-            <table border="1" cellpadding="10">
-                <thead>
-                    <tr>
-                        <th>Jenjang</th>
-                        <th>Institusi</th>
-                        <th>Tahun</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>SMA</td>
-                        <td>Sekolah Menengah Atas</td>
-                        <td>2021 - 2024</td>
-                    </tr>
-                    <tr>
-                        <td>Perguruan Tinggi</td>
-                        <td>Universitas di Mataram</td>
-                        <td>2024 - Sekarang</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <hr>
-
-        <section id="kontak">
-            <h2>Hubungi Saya</h2>
-            <p>Punya pertanyaan atau ingin kolaborasi? Isi form di bawah ini:</p>
-            
-            <form>
-                <label>Nama Lengkap:</label><br>
-                <input type="text" name="nama"><br><br>
-
-                <label>Email Aktif:</label><br>
-                <input type="email" name="email" ><br><br>
-
-                <label>Tanggal Kunjungan:</label><br>
-                <input type="date" name="tanggal"><br><br>
-
-                <label>Minat Utama:</label><br>
-                <input type="radio" name="minat" value="coding"> Coding
-                <input type="radio" name="minat" value="networking"> Networking<br><br>
-
-                <label>Pesan Tambahan:</label><br>
-                <textarea name="pesan" rows="4" cols="30"></textarea><br><br>
-
-                <input type="checkbox" name="setuju" required> Saya setuju mengirim data ini.<br><br>
-                
-                <input type="submit" value="Kirim Sekarang">
-            </form>
-        </section>
-    </main>
+    <section id="pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <table border="1" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Jenjang</th>
+            <th>Institusi</th>
+            <th>Tahun</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SMA</td>
+            <td>Sekolah Menengah Atas</td>
+            <td>2021 - 2024</td>
+          </tr>
+          <tr>
+            <td>Perguruan Tinggi</td>
+            <td>Universitas di Mataram</td>
+            <td>2024 - Sekarang</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
     <hr>
 
-    <footer>
-        <p><em>&copy; 2026 - Danny </em>| Universitas Mataram</p>
-    </footer>
+    <section id="kontak">
+      <h2>Hubungi Saya</h2>
+      <p>Punya pertanyaan atau ingin kolaborasi? Isi form di bawah ini:</p>
+
+      <form>
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label>Email Aktif:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Tanggal Kunjungan:</label><br>
+        <input type="date" name="tanggal"><br><br>
+
+        <label>Minat Utama:</label><br>
+        <input type="radio" name="minat" value="coding"> Coding
+        <input type="radio" name="minat" value="networking"> Networking<br><br>
+
+        <label>Pesan Tambahan:</label><br>
+        <textarea name="pesan" rows="4" cols="30"></textarea><br><br>
+
+        <input type="checkbox" name="setuju" required> Saya setuju mengirim data ini.<br><br>
+
+        <input type="submit" value="Kirim Sekarang">
+      </form>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p><em>&copy; 2026 - Danny </em>| Universitas Mataram</p>
+  </footer>
 
 </body>
+
 </html>
